@@ -1,4 +1,4 @@
-# DESCRIPTION	: Eular's algorithm used to compute planar pendulum solution
+# DESCRIPTION	: This program uses Eular's algorithm to compute the solution of the frictionless planar pendulum.
 
 # Write to PNG
 png("Pendulum_with_Euler.png", bg = "lightgray", width = 700, height = 700)
