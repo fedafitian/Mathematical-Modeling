@@ -27,12 +27,12 @@ for(i in (1:(number_of_generations - 1))) {
 time = (0:(number_of_generations - 1))
 
 plot(time, x, main = "Logistic: x_n+1 = r*x_n*(1=x_n); x_0 = 0.2, r = 3.4",
-	         ylim = c(0,1.5),
+	      ylim = c(0,1.5),
               ylab = "X",
-	         xlab = "Time",
+	      xlab = "Time",
               type = "o",
-		   lwd = 1,
+	      lwd = 1,
               col = "red",
-		   cex.main = 1.75, cex.lab = 1.25, cex.axis = 1)
+	      cex.main = 1.75, cex.lab = 1.25, cex.axis = 1)
 
 dev.off()
