@@ -32,7 +32,9 @@ for(i in 1:(length(y)-1)) {
 #print(rate)
 
 # Plot 15 points and compute best line for them
-plot(y_1, scaled_rate, col = "red", main = "Least square fit to scaled rates")
+plot(y_1, scaled_rate, 
+          col = "red", 
+          main = "Least square fit to scaled rates")
 
 best_fit_line = lm(scaled_rate~y_1)       # Computes line using lm() and save
 abline(best_fit_line)                     # Adds the graph of the line 
