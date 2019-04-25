@@ -4,7 +4,7 @@
 png("Logistic_Plot", width = 600, height = 600)
 
 r = 3.4	# Growth Rate
-x = 0.2 	# Initial condition (population density)
+x = 0.2 # Initial condition (population density)
 
 
 # Output Generation 1 and its initial population density
